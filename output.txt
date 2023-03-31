@@ -1,0 +1,88 @@
+cycle 1 :
+P1 -> T1
+P2 -> T2
+P3 -> __
+---------
+cycle 2 :
+P1 -> T1
+P2 -> T2
+P3 -> T3
+---------
+cycle 3 :
+P1 -> T1
+P2 -> T6
+P3 -> T3
+---------
+cycle 4 :
+P1 -> T1
+P2 -> T4
+P3 -> T3
+---------
+cycle 5 :
+P1 -> T10
+P2 -> T11
+P3 -> T3
+---------
+cycle 6 :
+P1 -> T11
+P2 -> T9
+P3 -> T8
+---------
+cycle 7 :
+P1 -> T9
+P2 -> T6
+P3 -> T7
+---------
+cycle 8 :
+P1 -> T5
+P2 -> T7
+P3 -> T8
+---------
+cycle 9 :
+P1 -> T8
+P2 -> T5
+P3 -> T9
+---------
+cycle 10 :
+P1 -> T9
+P2 -> T8
+P3 -> T4
+---------
+cycle 11 :
+P1 -> T5
+P2 -> __
+P3 -> T4
+---------
+cycle 12 :
+P1 -> __
+P2 -> __
+P3 -> T4
+---------
+cycle 13 :
+P1 -> __
+P2 -> __
+P3 -> T4
+---------
+cycle 14 :
+P1 -> __
+P2 -> __
+P3 -> T4
+---------
+cycle 15 :
+P1 -> __
+P2 -> __
+P3 -> T4
+---------
+taskType1{taskID=2, creationTime=1, requestedTime=2, completionTime=2, remainingTime=0, Priority=true, state=completed}
+taskType1{taskID=1, creationTime=1, requestedTime=4, completionTime=4, remainingTime=0, Priority=true, state=completed}
+taskType1{taskID=3, creationTime=2, requestedTime=4, completionTime=5, remainingTime=0, Priority=true, state=completed}
+taskType1{taskID=10, creationTime=5, requestedTime=1, completionTime=5, remainingTime=0, Priority=false, state=completed}
+taskType1{taskID=11, creationTime=5, requestedTime=2, completionTime=6, remainingTime=0, Priority=false, state=completed}
+taskType1{taskID=6, creationTime=3, requestedTime=2, completionTime=7, remainingTime=0, Priority=false, state=completed}
+taskType1{taskID=7, creationTime=4, requestedTime=2, completionTime=8, remainingTime=0, Priority=false, state=completed}
+taskType1{taskID=9, creationTime=4, requestedTime=4, completionTime=10, remainingTime=0, Priority=false, state=completed}
+taskType1{taskID=8, creationTime=4, requestedTime=4, completionTime=10, remainingTime=0, Priority=false, state=completed}
+taskType1{taskID=5, creationTime=3, requestedTime=3, completionTime=11, remainingTime=0, Priority=false, state=completed}
+taskType1{taskID=4, creationTime=3, requestedTime=7, completionTime=15, remainingTime=0, Priority=false, state=completed}
+SIMULATION TIME: 15
+TERMINATE SIMULATION
